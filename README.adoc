@@ -1,0 +1,26 @@
+:Author: araasai
+:Email: {AuthorEmail}
+:Date: 11/01/2021
+:Revision: version#
+:License: Public Domain
+
+= Motor Controller
+
+In this project I controlled the speed of a motor, by adjusting the duty cycle of a Pulse
+Width Modulated (PWM) signal. 
+
+== Step 1: Design Implementation
+
+This project consists of a motor with a built in tachometer,
+a small circuit to convert the tachometer signal to a digital signal and a motor driver to allow the
+Arduino to drive the motor. Then an RPM readout (LCD) and speed control (encoder knob) will be
+displayed.
+
+BOM::: 
+ * Arduino Board
+ * LCD
+ * Motor
+
+== Step 2: Load the code
+
+Upload the code contained in this folder on to your board
